@@ -11,7 +11,7 @@ function AllDataFiltered() {
   const [displayCount, setDisplayCount] = useState(3);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/getData").then((response) => {
+    axios.get("https://mern-wheat.vercel.app/getData").then((response) => {
       const fetchedData = response.data;
       setInitialData(fetchedData);
       setSortedData(fetchedData);
