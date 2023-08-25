@@ -16,7 +16,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const { data } = await axios.post("http://localhost:5000/contact", {
+    const { data } = await axios.post("https://mern-wheat.vercel.app/contact", {
       name,
       email,
       phone,
