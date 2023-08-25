@@ -12,7 +12,7 @@ const login = require("./model/login.js");
 const port = process.env.PORT || 5000;
 app.use(multer().any());
 app.use(cors({
-  origin: [],
+  origin: ["https://mern-wheat.vercel.app/"],
   method:["POST","GET"],
   credentials:true,
 }));
