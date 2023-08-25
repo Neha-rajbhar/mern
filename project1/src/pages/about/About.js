@@ -17,7 +17,7 @@ function About() {
   const [filteredData, setFilteredData] = useRecoilState(filteredState);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/getData").then((data) => {
+    axios.get("https://mern-wheat.vercel.app/getData").then((data) => {
       setData(data.data);
 
       localStorage.setItem("datas", JSON.stringify(data.data));
