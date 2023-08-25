@@ -1,0 +1,52 @@
+
+.searchs form {
+    position: relative;
+    width: 410px;
+    max-width: 100%;
+  }
+  
+  .searchs form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 17px 130px 13px 15px;
+    border-radius: 0.7rem;
+    border: 2px solid darkcyan;
+    font-size: 18px;
+  }
+  
+  .searchs .searchBtn {
+    display: inline-block;
+    position: absolute;
+    padding: 10px 10px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    box-shadow: 0px 0px 5px #fff, 0px 0px 15px darkcyan;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .h2{
+    color: white;
+  }
+
+  .btn {
+    
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    font-size: 19px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  
+  .btn:hover {
+    background-color: darkviolet; 
+    color: #fff; 
+    border-color: purple; 
+  }

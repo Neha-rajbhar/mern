@@ -1,0 +1,71 @@
+.mainSection {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.overlay h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 0, 128, 0.5);
+  backdrop-filter: blur(3px);
+}
+
+.overlay form {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  top: 50px;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 4%;
+  background-color: rgba(75, 0, 130, 0.8);
+  border-radius: 10px;
+}
+
+.overlay form input,
+.overlay form button {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.overlay form input[type="text"],
+.overlay form input[type="email"],
+.overlay form input[type="number"],
+.overlay form textarea {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+}
+
+.overlay form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.overlay form button {
+  background-color: palevioletred;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+}
+
+.overlay form button:hover {
+  background-color: darkmagenta;
+}
